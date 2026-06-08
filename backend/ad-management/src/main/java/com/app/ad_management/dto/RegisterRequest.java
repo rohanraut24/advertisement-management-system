@@ -10,4 +10,5 @@ public class RegisterRequest {
     private String companyName;
     private String platformName;
     private String platformUrl;
+    private String Role;
 }

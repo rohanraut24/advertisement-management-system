@@ -23,6 +23,7 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private Role role;
+    private Status status;
 
     private LocalDateTime createdAt = LocalDateTime.now();
 
